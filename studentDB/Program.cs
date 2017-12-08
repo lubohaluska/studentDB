@@ -45,6 +45,10 @@ namespace studentDB
             Console.WriteLine();
 
 
+            bool bylo;
+            if (trideno) bylo = true;
+      // inlajnovka
+            int delka = (databaze.seznamStudentu.Count == 4)? 4 : -1; 
 
 
 
