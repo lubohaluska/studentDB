@@ -33,6 +33,8 @@ namespace studentDB
                 Student[] polesStudentu = new Student[delkaPole];
                 poleStudentu[i] = student;
                 SeznamStudentu.Add(student);
+                
+
 
 
             }

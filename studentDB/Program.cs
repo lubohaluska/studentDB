@@ -24,14 +24,28 @@ namespace studentDB
                 Console.WriteLine(s.Jmeno + " " + s.Prijmeni + " " + s.Vek);
             }
 
+            Console.WriteLine();
+
 
             foreach (Student s in databaze.poleStudentu)
             {
                 Console.WriteLine(s.Jmeno + " " + s.Prijmeni + " " + s.Vek);
             }
 
+
             Console.WriteLine();
+
+
+            foreach (Student s in databaze.SeznamStudentu)
+            {
+                Console.WriteLine(s.Jmeno + " " + s.Prijmeni + " " + s.Vek);
+            }
+
+
             Console.WriteLine();
+
+
+
 
 
             Console.ReadLine();
